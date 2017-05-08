@@ -24,3 +24,5 @@ app.post('/todos', (req, res) => {
 app.listen(process.env.PORT, process.env.IP, () => {
    console.log("Server is running...");
 });
+
+module.exports = { app };
