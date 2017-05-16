@@ -18,6 +18,10 @@ app.get('/todos', (req, res) => {
       res.status(400).send(err);
    });
 });
+// ROOT
+app.get("/", (req, res) => {
+   res.send("Go to /todos");
+});
 // POST NEW
 app.post('/todos', (req, res) => {
    var newTodo = new Todo({
