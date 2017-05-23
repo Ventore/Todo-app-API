@@ -10,9 +10,10 @@
   "engines": {
     "node": "6.10.3"
   },
-  "author": "",
+  "author": "Bohdan Basov",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
     "jsonwebtoken": "^7.4.1",
